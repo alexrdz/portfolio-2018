@@ -1,0 +1,78 @@
+.top-container {
+  background-image: linear-gradient(138deg, #30CFD0 0%, #330867 100%);
+}
+
+.back-link--end {
+  color: var(--purple);
+}
+
+.view-project-link {
+  color: var(--blue);
+  font-size: 1.125rem;
+  margin-right: 1px; /* prevents jump of content after link on hover (Chrome) */
+  -webkit-transition: margin 1.5s ease-in-out;
+  -moz-transition: margin 1.5s ease-in-out;
+  -ms-transition: margin 1.5s ease-in-out;
+  -o-transition: margin 1.5s ease-in-out;
+  transition: margin 1.5s ease-in-out;
+}
+.view-project-link:hover {
+  margin-left: -10px;
+}
+.view-project-link:after {
+  background-color: #D8D8D8;
+  content: '';
+  display: block;
+  height: 12px;
+  margin-left: -20px;
+  margin-top: -8px;
+  width: 120px;
+
+  -webkit-transition: margin 2.25s ease-out;
+  -moz-transition: margin 2.25s ease-out;
+  -ms-transition: margin 2.25s ease-out;
+  -o-transition: margin 2.25s ease-out;
+  transition: margin 2.25s ease-out;
+}
+.view-project-link:hover:after {
+  margin-left: -10px;
+}
+
+
+/* project-specific */
+.lupuloco {
+  background-image: url("../img/work/lupuloco/matt-and-jordan.jpg");
+  background-position: center 80vh;
+  background-size: contain;
+}
+/* No greater than 1200px, no less than 600px */
+@media (max-width:1400px) and (min-width:767px) {
+  .lupuloco {
+    background-position: center 60vh;
+  }
+}
+
+ .sennobia {
+   background-image: url("../img/work/sennobia/sennobia-bg.jpg");
+   background-position: center 80vh;
+   background-size: contain;
+ }
+/* No greater than 1200px, no less than 600px */
+@media (max-width:1400px) and (min-width:767px) {
+  .sennobia {
+    background-position: center 60vh;
+  }
+}
+
+
+ .util {
+   background-image: url("../img/work/util/util-bg.jpg");
+   background-position: center 80vh;
+   background-size: contain;
+ }
+/* No greater than 1200px, no less than 600px */
+@media (max-width:1400px) and (min-width:767px) {
+  .util {
+    background-position: center 60vh;
+  }
+}​
