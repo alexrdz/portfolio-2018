@@ -128,10 +128,10 @@
   }
 }
 .slide-right {
-  -webkit-animation-duration: .65s;
-  -moz-animation-duration: .65s;
-  -o-animation-duration: .65s;
-  animation-duration: .65s;
+  -webkit-animation-duration: .35s;
+  -moz-animation-duration: .35s;
+  -o-animation-duration: .35s;
+  animation-duration: .35s;
 
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
@@ -142,6 +142,15 @@
   -o-animation-name: slideRight;
   animation-name: slideRight;
 }
+
+
+.slide-in-left {
+  transform: translateX(-100%);
+}
+
+
+
+
 
 .delay-1 {
   -webkit-animation-delay: .25s;

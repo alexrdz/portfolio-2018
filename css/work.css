@@ -38,6 +38,14 @@
   margin-left: -10px;
 }
 
+.mid-container .text-white{
+  color: var(--black);
+}
+@media screen and (min-width:767px) {
+  .mid-container .text-white{
+    color: var(--offWhite);
+  }
+}
 
 /* project-specific */
 .lupuloco {
@@ -65,11 +73,11 @@
 }
 
 
- .util {
-   background-image: url("../img/work/util/util-bg.jpg");
-   background-position: center 80vh;
-   background-size: contain;
- }
+.util {
+ background-image: url("../img/work/util/util-bg.jpg");
+ background-position: center 80vh;
+ background-size: contain;
+}
 /* No greater than 1200px, no less than 600px */
 @media (max-width:1400px) and (min-width:767px) {
   .util {
