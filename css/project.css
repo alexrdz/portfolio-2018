@@ -5,6 +5,8 @@
 @import "./home.css";
 @import "./work.css";
 @import "./footer.css";
+@import "./about.css";
+@import "./contact.css";
 
 
 body {
@@ -30,7 +32,10 @@ a {
   opacity: 0;
 }
 .text-white {
-  color: rgba(255,255,255,.7);
+  color: rgba(255,255,255,.85);
+}
+.text-black {
+  color: var(--black);
 }
 .flex-1 {
   flex: 1 0 auto;
@@ -74,10 +79,10 @@ a {
 }
 
 
-.about .mid-container {
-  background-image: url("../img/about.jpg");
+.close-panel-trigger {
+  right: 40px;
+  top: 40px;
 }
-
 
 
 

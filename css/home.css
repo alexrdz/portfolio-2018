@@ -72,6 +72,7 @@ hr {
   transition: fill .3s;
   width: 40px;
 }
+
 .social svg:hover {
   fill: white;
 }
