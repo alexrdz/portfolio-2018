@@ -1,0 +1,16 @@
+.contact-content {
+  background-color: #172144;
+  left: 100%;
+  right: 0;
+  top: 0;
+  transition: transform .35s;
+  width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .contact-content {
+    width: 40%;
+  }
+}
+.contact-content.slide-in-left {
+  animation-delay: .25s;
+}

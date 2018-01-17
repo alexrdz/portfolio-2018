@@ -1,0 +1,16 @@
+.about-content {
+  background-color: #172144;
+  left: 100%;
+  right: 0;
+  top: 0;
+  transition: transform .35s;
+  width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .about-content {
+    width: 40%;
+  }
+}
+.about-content.slide-in-left {
+  animation-delay: .25s;
+}

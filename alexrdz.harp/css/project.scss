@@ -1,0 +1,96 @@
+@import './vars.scss';
+@import './animations.scss';
+@import "./lupuloco.scss";
+@import "./nav.scss";
+@import "./home.scss";
+@import "./work.scss";
+@import "./footer.scss";
+@import "./about.scss";
+@import "./contact.scss";
+
+
+body {
+  background-color: var(--offWhite);
+  color: var(--black);
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+}
+a {
+  color: var(--lightBlue);
+  text-decoration: none;
+}
+
+.page-wrapper {
+  transition: opacity .65s;
+}
+.loading {
+  opacity: 0;
+}
+.text-white {
+  color: rgba(255,255,255,.85);
+}
+.text-black {
+  color: var(--black);
+}
+.flex-1 {
+  flex: 1 0 auto;
+}
+.box-shadow-1 {
+  -webkit-box-shadow: -4px 5px 24px rgba(39,39,39,.1);
+  -moz-box-shadow: -4px 5px 24px rgba(39,39,39,.1);
+  box-shadow: -4px 5px 24px rgba(39,39,39,.1);
+}
+.box-shadow-2 {
+  -webkit-box-shadow: -4px 5px 24px rgba(50, 113, 158, 0.1);
+  -moz-box-shadow: -4px 5px 24px rgba(50, 113, 158, 0.1);
+  box-shadow: -4px 5px 24px rgba(50, 113, 158, 0.1);
+}
+.box-shadow-3 {
+  -webkit-box-shadow: -4px 5px 24px rgba(39,39,39,.5);
+  -moz-box-shadow: -4px 5px 24px rgba(39,39,39,.5);
+  box-shadow: -4px 5px 24px rgba(39,39,39,.5);
+}
+
+.bg-white {
+  background-color: var(--offWhite);
+}
+.bg-h-50 {
+  background-size: 100% 50%;
+}
+.bg-h-80 {
+  background-size: 100% 80%;
+}
+@media screen and (min-width: 767px) {
+  .bg-h-50-m {
+    background-size: 100% 50%;
+  }
+  .bg-h-80-m {
+    background-size: 100% 80%;
+  }
+}
+.overlay--gradient {
+  opacity: 0.75;
+  background-image: linear-gradient(-138deg, #30CFD0 0%, #330867 100%);
+}
+
+
+.close-panel-trigger {
+  right: 40px;
+  top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
