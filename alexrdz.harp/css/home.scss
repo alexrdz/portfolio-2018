@@ -1,0 +1,84 @@
+
+.site-home {
+  -webkit-transition: width .3s;
+  -moz-transition: width .3s;
+  -ms-transition: width .3s;
+  -o-transition: width .3s;
+  transition: width .3s;
+}
+
+.home-content,
+.alex-img {
+  width: 100%;
+}
+.home-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  -webkit-transition: width .65;
+  -moz-transition: width .65;
+  -ms-transition: width .65;
+  -o-transition: width .65;
+  transition: width .65;
+}
+
+
+@media screen and (min-width: 767px) {
+  .home {
+    display: flex;
+  }
+  .home-content {
+    width: 60%;
+  }
+  .abbreviated-resume h3 {
+    font-size: 1.875rem;
+  }
+  .abbreviated-resume h4 {
+    font-size: 1.625rem;
+  }
+  .abbreviated-resume h5 {
+    font-size: 1.375rem;
+  }
+  .alex-img {
+    width: 40%;
+  }
+}
+
+
+
+nav a {
+  color: rgba(255,255,255,.7);
+  text-decoration: none;
+  -webkit-transition: color .3s;
+  -moz-transition: color .3s;
+  -ms-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s;
+}
+nav a:hover {
+  color: white;
+}
+
+hr {
+  opacity: .2;
+}
+
+.social svg {
+  fill: rgba(255,255,255,.7);
+  -webkit-transition: fill .3s;
+  -moz-transition: fill .3s;
+  -ms-transition: fill .3s;
+  -o-transition: fill .3s;
+  transition: fill .3s;
+  width: 40px;
+}
+
+.social svg:hover {
+  fill: white;
+}
+
+@media screen and (min-width: 767px) {
+  .alex-img {
+    background-image: url('../img/alexrdz.jpg');
+  }
+}
