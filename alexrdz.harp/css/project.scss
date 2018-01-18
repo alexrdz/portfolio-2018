@@ -21,6 +21,10 @@ a {
   color: var(--lightBlue);
   text-decoration: none;
 }
+.text-404 {
+  font-size: 16rem;
+  opacity: .75;
+}
 
 .page-wrapper {
   transition: opacity .65s;
